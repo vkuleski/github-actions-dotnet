@@ -13,7 +13,7 @@ public class WeatherForecastTests
             TemperatureC = 0
         };
 
-        const int expectedTempC = 31;
+        const int expectedTempC = 32;
         weatherForecast.TemperatureF.Should().Be(expectedTempC);
     }
 }
